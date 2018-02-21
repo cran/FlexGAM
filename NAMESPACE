@@ -1,0 +1,83 @@
+
+
+
+
+importFrom(graphics,abline,axis,axTicks,box,contour,hist,image,lines,
+           mtext, par, persp,plot,points,
+           polygon,rect,strheight,strwidth,text,title)
+
+importFrom(MASS, ginv)
+
+importFrom(stats,.checkMFClasses,.getXlevels,anova,approx,as.formula,
+           binomial,coefficients,coef,contrasts,"contrasts<-",cooks.distance,
+           cor,cov,delete.response,dbeta,dgamma,dnorm,dpois, deviance, fitted,
+           fitted.values,formula,gaussian,glm,influence,logLik,lm,mad,
+           make.link,median,model.frame,model.offset,model.matrix,model.extract,
+           nlm,nlminb,na.pass,napredict,na.omit,naresid,optim,pchisq,pnorm,pt,pf,
+           power,predict,printCoefmat,quantile,
+           qbeta,qbinom,qchisq,qnbinom,qgamma,qnorm,qpois,qqline,qqnorm,qqplot,
+           reformulate,resid,residuals,
+           rbeta,rbinom,rgamma,rnbinom,rnorm,rpois,runif,sd,
+           termplot,terms.formula,terms,uniroot,update.formula,var,vcov,
+           weights,weighted.mean)
+
+
+importMethodsFrom(Matrix,t,colMeans,colSums,chol,solve,lu,expand)
+importFrom(Matrix,bdiag,Diagonal,sparseMatrix,Matrix)
+
+
+importFrom(mgcv, gam,s,Predict.matrix,smoothCon,formula.gam,PredictMat,smooth.construct,
+           exclude.too.far,mroot,fix.family.link,fix.family.var,pcls, Rrank, interpret.gam)
+import(mgcv)  ## imports ALL exported variables from mgcv package
+
+
+importFrom(scam, scam, bfgs_gcv.ubre, 
+       derivative.scam, 
+       gcv.ubre_grad,
+       scam.check,
+       scam.fit, 
+       plot.scam, 
+       predict.scam, 
+       print.scam,
+       check.analytical,
+       summary.scam, print.summary.scam, vis.scam,
+       anova.scam, print.anova.scam,
+       logLik.scam,
+       formula.scam,
+       residuals.scam)
+       
+
+importFrom(splines, splineDesign)
+
+export(flexgam,
+       match_flexgam_control,
+       plot.flexgam,
+       predict.flexgam,
+       print.flexgam,
+       summary.flexgam,
+       deviance.flexgam,
+       residuals.flexgam,
+       resid.flexgam,
+       fitted.flexgam,
+       fitted.values.flexgam,
+       coefficients.flexgam,
+       coef.flexgam,
+       response.flexgam,
+       response)
+
+exportClasses("flexgam")
+
+S3method(coef, flexgam)
+S3method(coefficients, flexgam)
+S3method(deviance, flexgam)
+S3method(fitted, flexgam)
+S3method(fitted.values, flexgam)
+S3method(plot, flexgam)
+S3method(predict, flexgam)
+S3method(print, flexgam)
+S3method(summary, flexgam)
+S3method(residuals, flexgam)
+S3method(resid, flexgam)
+S3method(response, flexgam)
+
+

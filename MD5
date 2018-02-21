@@ -1,0 +1,17 @@
+dc93ef732150ab2e8b08398c36ff279d *DESCRIPTION
+4ac4347e409cecb281cc6374af6e0d37 *NAMESPACE
+befab728a5caa091a90e43068ae645e7 *NEWS.md
+40a35c73df1b7357fe5bdf4e0af52505 *R/flexgam_extra.R
+53edc550c0f1a32f4a3f0f52f1a681ee *R/flexgam_inner.R
+1e0de6844abc1c5c1ef98c179e6b4db9 *R/flexgam_optimize.R
+a9b111ce180f5fdc6dc8569d1c3d2c67 *R/flexgam_outputs.R
+0cd7660ca6122027d873ec6b8edd0c00 *R/flexgam_start.R
+df64615aeaf8751ce68beab0d5ec4692 *R/my_pcls_gam.R
+ed9dd3767f99ed65c07254f85eddb35d *man/Methods.Rd
+17abd92f15cbe27dcdab430f2c35da97 *man/deviance_flexgam.Rd
+0433901ca29683b11f340c27b8706bc2 *man/flexgam.Rd
+96c621b9745c3fd20c794adec48fdb7f *man/match_flexgam_control.Rd
+0be15ce55475dc27333458ed599ef750 *man/outputs.Rd
+11455dd4ec1f47e3a8dc82f57f748b61 *man/plot_flexgam.Rd
+05ec80766a18569cf4728d302daa4a2a *man/predict_flexgam.Rd
+9b165c3c4496cc7a9d1f8b06cee461b5 *man/response_function_flexgam.Rd
