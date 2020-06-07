@@ -51,21 +51,20 @@ importFrom(splines, splineDesign)
 
 export(flexgam,
        match_flexgam_control,
+       coef.flexgam,
+       coefficients.flexgam,
+       deviance.flexgam,
+       fitted.flexgam,
+       fitted.values.flexgam,
        plot.flexgam,
        predict.flexgam,
        print.flexgam,
        summary.flexgam,
-       deviance.flexgam,
        residuals.flexgam,
        resid.flexgam,
-       fitted.flexgam,
-       fitted.values.flexgam,
-       coefficients.flexgam,
-       coef.flexgam,
        response.flexgam,
        response)
 
-exportClasses("flexgam")
 
 S3method(coef, flexgam)
 S3method(coefficients, flexgam)

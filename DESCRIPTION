@@ -1,8 +1,8 @@
 Package: FlexGAM
 Type: Package
 Title: Generalized Additive Models with Flexible Response Functions
-Version: 0.7.0
-Date: 2018-02-21
+Version: 0.7.2
+Date: 2020-06-06
 Authors@R: person("Elmar", "Spiegel", role = c("aut", "cre"), email = "espiege@uni-goettingen.de")
 Author: Elmar Spiegel [aut, cre]
 Maintainer: Elmar Spiegel <espiege@uni-goettingen.de>
@@ -26,6 +26,6 @@ License: GPL-2
 LazyLoad: yes
 LazyData: yes
 NeedsCompilation: no
-Packaged: 2018-02-21 12:49:53 UTC; Elmar
+Packaged: 2020-06-06 17:26:40 UTC; Elmar
 Repository: CRAN
-Date/Publication: 2018-02-21 16:40:01 UTC
+Date/Publication: 2020-06-07 09:10:03 UTC
